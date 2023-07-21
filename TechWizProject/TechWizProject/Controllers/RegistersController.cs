@@ -48,19 +48,19 @@ namespace TechWizProject.Controllers
         // GET: Registers/CreateTeacher
         public IActionResult CreateTeacher()
         {
-            ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
+            //ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
             return View();
         }
 
         // GET: Registers/CreateParent
         public IActionResult CreateParent()
         {
-            ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
+            //ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
             return View();
         }
         public IActionResult Create()
         {
-            ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
+            //ViewData["UserTypeId"] = new SelectList(_context.UserType, "UserTypeId", "Typename");
             return View();
         }
 
